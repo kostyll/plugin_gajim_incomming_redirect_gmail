@@ -1,0 +1,1 @@
+from plugin_gajim_incomming_redirect_gmail import IncommingRedirectPlugin
