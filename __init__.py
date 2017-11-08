@@ -1,1 +1,3 @@
-from plugin_gajim_incomming_redirect_gmail import IncommingRedirectPlugin
+print "try to import incomming redirect..."
+from incomingredirect import IncommingRedirectPlugin
+print "Imported"

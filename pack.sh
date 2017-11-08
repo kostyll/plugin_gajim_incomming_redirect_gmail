@@ -1,3 +1,9 @@
 #!/bin/bash
 
-zip plugin_gajim_incomming_redirect_gmail.zip __init__.py  manifest.ini  plugin_gajim_incomming_redirect_gmail.png  plugin_gajim_incomming_redirect_gmail.py
+rm incomingredirect -rf
+mkdir incomingredirect
+
+cp __init__.py  manifest.ini  incomingredirect.png  incomingredirect.py incomingredirect
+
+zip -r incomingredirect.zip incomingredirect incomingredirect/*.py incomingredirect/*.png incomingredirect/manifest.ini
+rm incomingredirect -rf
